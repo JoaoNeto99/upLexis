@@ -1,0 +1,33 @@
+.arrows {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.slide__next {
+  float: left;
+  top: 200px;
+  width: 5%;
+}
+
+.slide__atual {
+  float: left;
+  width: 90%;
+}
+
+.slide__prev {
+  float: left;
+  top: 200px;
+  width: 5%;
+}
+
+.button__svg {
+  font-size: 1.3rem;
+}
+
+.slide__item {
+  img {
+    transform: scale(0.7);
+  }
+}

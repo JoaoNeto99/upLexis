@@ -1,0 +1,28 @@
+@use "../../index.scss";
+
+.menuBar {
+  margin: 12px auto;
+  width: 95%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .menuBar {
+    overflow-x: scroll;
+  }
+
+  .menuBar::-webkit-scrollbar {
+    height: 8px; 
+    margin-top: 2px;
+  }
+
+  .menuBar::-webkit-scrollbar-track {
+    background: #dcdcb2;
+  }
+
+  .menuBar::-webkit-scrollbar-thumb {
+    background-color: #ff6800; 
+  }
+}

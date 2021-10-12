@@ -1,0 +1,69 @@
+
+@use '../../Header/Header.scss';
+
+$font-stack: 'Roboto Condensed', sans-serif;
+$white: #fff;
+$orange: #FF6800;
+
+.slide {
+  height: 305px;
+  background: #02080D;
+}
+
+.slide__container {
+  display: flex;
+  align-items: center;
+  margin-top: -270px;
+  margin-left: 80px;
+}
+
+.slide__logo {
+  width: 115px;
+  height: 39px;
+}
+
+.slide__titulo {
+  font-size: 1.5rem;
+  font-family: $font-stack;
+  font-weight: 500;
+  color: $white;
+}
+
+.slide__pipeline:before {
+  content: "";
+  width: 3px;
+  height: 40px;
+  background-color: $white;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.slide__texto {
+  margin-left: 80px;
+  padding-top: 30px;
+  width: 40%;
+
+  p {
+    font-family: $font-stack;
+    font-size: 1.1rem;
+    color: $white;
+  }
+}
+
+@media (max-width: 730px) {
+  .slide__texto {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .slide__texto {
+    margin-left: 40px;
+    width: 80%;
+  }
+
+  .slide__container {
+    margin-left: 40px;
+  }
+}
+

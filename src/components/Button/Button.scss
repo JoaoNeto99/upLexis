@@ -1,0 +1,39 @@
+$font-stack: 'Roboto Condensed', sans-serif;
+$white: #fff;
+$orange: #FF6800;
+
+.slide_preco {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 1rem;
+  font-family: $font-stack;
+  font-size: 1rem;
+  color: $white;
+  
+  .preco__p {
+    font-size: 2rem;
+  }
+
+  .preco__p::before {
+    content: "R$";
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .preco__button {
+    background: rgb(255,143,62);
+    background: linear-gradient(90deg, rgba(255,143,62,1) 0%, rgba(255,104,0,1) 33%);
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slide_preco {
+    margin-left: 40px;
+  }
+}

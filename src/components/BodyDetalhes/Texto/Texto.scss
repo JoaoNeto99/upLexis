@@ -1,0 +1,23 @@
+@use "../../../index.scss";
+@import "../../Button/Button.scss";
+
+$font-stack: 'Roboto Condensed', sans-serif;
+$white: #fff;
+$orange: #FF6800;
+
+.texto {
+  margin-top: 1rem;
+  color: black;
+  text-align: justify;
+}
+
+.mod {
+  margin: 1rem 0;
+  p {
+    color: black;
+  }
+  button {
+    color: white;
+  }
+}
+

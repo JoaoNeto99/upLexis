@@ -1,0 +1,15 @@
+@use '../../index.scss';
+
+$orange: #FF6800;
+
+.header{
+align-self: center;
+}
+
+.header::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  background-color: $orange;
+  display: block;
+}

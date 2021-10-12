@@ -1,0 +1,28 @@
+$font-stack: 'Roboto Condensed', sans-serif;
+$white: #fff;
+$orange: #FF6800;
+$orange_dark: #E85E00;
+
+
+.content__titulo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 10px 0;
+
+  a {
+    color: $orange;
+  }
+
+  a:hover {
+    color: $orange_dark;
+  }
+  
+  .titulo::before {
+    content: "<";
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 10px 0 0;
+  }
+}
+
+

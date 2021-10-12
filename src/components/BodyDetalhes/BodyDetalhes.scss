@@ -1,0 +1,21 @@
+@use '../../index.scss';
+
+$font-stack: 'Roboto Condensed', sans-serif;
+$orange: #FF6800;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .container__content {
+      width: 80%;
+      align-self: center;
+      font-family: $font-stack;
+    }
+  }
+
+  .container__slide {
+    width: 90%;
+  }

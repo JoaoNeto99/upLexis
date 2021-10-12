@@ -1,0 +1,31 @@
+@use '../../index.scss';
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body__select {
+  margin-left: 3%;
+  padding-bottom: 10px;
+  align-self: flex-start;
+
+  label {
+    margin-right: 5px;
+  }
+}
+
+.body__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+}
+
+@media (max-width: 480px) {
+  .body__cards {
+    justify-content: center;
+  }
+}
